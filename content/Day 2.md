@@ -12,9 +12,9 @@
 
 Во вновь созданный файл введите следующие строки кода:
 
-`import streamlit as st
+`import streamlit as st`
 
-st.write('Hello world!')`
+`st.write('Hello world!')`
 
 Сохраните файл.
 
