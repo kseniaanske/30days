@@ -72,6 +72,6 @@ st.line_chart(chart_data)
 
 ## **Дальнейшее чтение**
 
-Узнайте больше о следующей соответствующей команде Streamlit, на основе которой [st.line_chart](https://docs.streamlit.io/library/api-reference/charts/st.line_chart) работает:
+Узнайте больше о следующей соответствующей команде Streamlit, на основе которой [`st.line_chart`](https://docs.streamlit.io/library/api-reference/charts/st.line_chart) работает:
 
 - [`st.altair_chart`](https://docs.streamlit.io/library/api-reference/charts/st.altair_chart)
