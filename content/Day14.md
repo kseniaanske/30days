@@ -93,4 +93,4 @@ st_profile_report(pr)
 1. [Компоненты Streamlit — Документация по API](https://docs.streamlit.io/library/components)
 2. [Избранные компоненты Streamlit](https://streamlit.io/components) 
 3. [Компоненты Streamlit — трекер сообщества](https://discuss.streamlit.io/t/streamlit-components-community-tracker/4634)
-4. `[streamlit_pandas_profiling](https://share.streamlit.io/okld/streamlit-gallery/main?p=pandas-profiling)`
+4. [`streamlit_pandas_profiling`](https://share.streamlit.io/okld/streamlit-gallery/main?p=pandas-profiling)
