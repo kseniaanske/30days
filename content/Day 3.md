@@ -38,28 +38,37 @@ else:
 
 Первое, что вам нужно сделать при создании приложения Streamlit, это импортировать библиотеку `streamlit` как `st`. Например:
 
-`import streamlit as st`
+```python
+import streamlit as st
+```
 
 Затем создайте текст заголовка для приложения:
 
-`st.header('st.button')`
+```python
+st.header('st.button')
+```
 
 Далее мы будем использовать условные операторы `if` и `else` для вывода альтернативных сообщений.
 
-`if st.button('Say hello'):
+```python
+if st.button('Say hello'):
      st.write('Why hello there')
 else:
-     st.write('Goodbye')`
+     st.write('Goodbye')
+```
 
 Как вы видите, команда `st.button()` принимает в качестве входного аргумента `label` значение `Say hello`, то есть текст который изображён на кнопке.
 
 Команда `st.write` используется для печати текстовых сообщений типа  `Why hello there` или `Goodbye` в зависимости от того, была ли нажата кнопка или нет, что реализуется с помощью:
 
-`st.write('Почему привет')`
+```python
+st.write('Why hello there')
+```
 
-А также
-
-`st.write('До свидания')`
+а также
+```python
+st.write('Goodbye')
+```
 
 Важно отметить, что приведенные выше операторы `st.write` размещаются под условиями `if` и `else`, чтобы выполнить вышеупомянутый процесс альтернативного изображения сообщений.
 
@@ -75,4 +84,4 @@ else:
 
 ## **Использованная литература**
 
-Прочтите о `[st.button](https://docs.streamlit.io/library/api-reference/widgets/st.button)` в документации по API Streamlit.
+Прочтите о [`st.button`](https://docs.streamlit.io/library/api-reference/widgets/st.button) в документации по API Streamlit.
