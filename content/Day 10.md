@@ -17,13 +17,14 @@
 
 Развернутое приложение Streamlit должно выглядеть примерно так, как показано по ссылке ниже:
 
-[https://camo.githubusercontent.com/767be70c92254555bd347ab07908fec67854c2264b77702581bd230fd7eac54f/68747470733a2f2f7374617469632e73747265616d6c69742e696f2f6261646765732f73747265616d6c69745f62616467655f626c61636b5f77686974652e737667](https://camo.githubusercontent.com/767be70c92254555bd347ab07908fec67854c2264b77702581bd230fd7eac54f/68747470733a2f2f7374617469632e73747265616d6c69742e696f2f6261646765732f73747265616d6c69745f62616467655f626c61636b5f77686974652e737667)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.selectbox/)
 
 ## **Код**
 
 Вот код для реализации вышеупомянутого приложения:
 
-`import streamlit as st
+```python
+import streamlit as st
 
 st.header('st.selectbox')
 
@@ -31,23 +32,29 @@ option = st.selectbox(
      'What is your favorite color?',
      ('Blue', 'Red', 'Green'))
 
-st.write('Your favorite color is ', option)`
+st.write('Your favorite color is ', option)
+```
 
 ## **Построчное объяснение**
 
 Самое первое, что нужно сделать при создании приложения Streamlit, это импортировать библиотеку `streamlit` как `st`, например:
 
-`import streamlit as st`
+```python
+import streamlit as st
+```
 
 Затем следует создание текста заголовка для приложения:
-
-`st.header('st.selectbox')`
+```python
+st.header('st.selectbox')
+```
 
 Далее мы создадим переменную с именем `option`, которая будет принимать пользовательский ввод в виде виджета **выбора** ввода с помощью команды `st.selectbox()`.
 
-`option = st.selectbox(
+```python
+option = st.selectbox(
      'What is your favorite color?',
-     ('Blue', 'Red', 'Green'))`
+     ('Blue', 'Red', 'Green'))
+```
 
 Как видно из кода выше, команда `st.selectbox()` принимает 2 входных аргумента:
 
@@ -56,7 +63,9 @@ st.write('Your favorite color is ', option)`
 
 Наконец, мы распечатаем выбранный цвет следующим образом:
 
-`st.write('Your favorite color is ', option)`
+```python
+st.write('Your favorite color is ', option)
+```
 
 ## **Следующие шаги**
 
@@ -64,4 +73,4 @@ st.write('Your favorite color is ', option)`
 
 ## **Использованная литература**
 
-Подробнее о `[st.selectbox](<https://docs.streamlit.io/library/api-reference/widgets/st.selectbox>)`
+Подробнее о [`st.selectbox`](https://docs.streamlit.io/library/api-reference/widgets/st.selectbox)
