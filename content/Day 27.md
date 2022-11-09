@@ -264,6 +264,6 @@ with elements("demo"):
 
                 media.Player(url=media_url, width="100%", height="100%", controls=True)
 ```
-## Вопросы?
+## Есть вопросы?
 
 Не стесняйтесь задавать любые вопросы, касающиеся Streamlit Elements или этой задачи.: [Тема об элементах Streamlit](https://discuss.streamlit.io/t/streamlit-elements-build-draggable-and-resizable-dashboards-with-material-ui-nivo-charts-and-more/24616)
