@@ -58,16 +58,8 @@ with st.sidebar:
     st.write("Build a draggable and resizable dashboard with Streamlit Elements.")
     st.write("---")
 
-		# Определите URL для медиаплеера.
+    # Определите URL для медиаплеера.
     media_url = st.text_input("Media URL", value="https://www.youtube.com/watch?v=vIQQR_yq-8I")
-
-# Initialize default data for code editor and chart.
-#
-# For this tutorial, we will need data for a Nivo Bump chart.
-# You can get random data there, in tab 'data': https://nivo.rocks/bump/
-#
-# As you will see below, this session state item will be updated when our
-# code editor change, and it will be read by Nivo Bump chart to draw the data.
 
 # Инициализируйте данные по умолчанию для редактора кода и диаграммы.
 #
@@ -95,11 +87,11 @@ layout = [
     dashboard.Item("media", 0, 2, 12, 4),
 ]
 
-# Создайте рамку для отображения элементов.
+# Создайте рамку для изображения элементов.
 
 with elements("demo"):
 
-		 # Создайте новую панель мониторинга с указанным выше макетом.
+     # Создайте новую панель мониторинга с указанным выше макетом.
      #
      # draggableHandle — это селектор запросов CSS для определения перетаскиваемой части каждого элемента панели.
      # Здесь элементы с именем класса "перетаскиваемый" будут перетаскиваемыми.
@@ -110,7 +102,7 @@ with elements("demo"):
 
     with dashboard.Grid(layout, draggableHandle=".draggable"):
 
-				 # Первая карта, редактор кода.
+	 # Первая карта, редактор кода.
          #
          # Мы используем параметр 'key' для определения правильного элемента панели.
          #
@@ -124,20 +116,17 @@ with elements("demo"):
 
         with mui.Card(key="editor", sx={"display": "flex", "flexDirection": "column"}):
 
-						# Чтобы сделать этот заголовок перетаскиваемым, нам просто нужно установить для его имени класса значение «перетаскиваемый»,
-						# как определено выше в draggableHandle панели инструментов.
+	    # Чтобы сделать этот заголовок перетаскиваемым, нам просто нужно установить для его имени класса значение «перетаскиваемый»,
+	    # как определено выше в draggableHandle панели инструментов.
 
             mui.CardHeader(title="Editor", className="draggable")
 
-            # We want to make card's content take all the height available by setting flex CSS value to 1.
-            # We also want card's content to shrink when the card is shrinked by setting minHeight to 0.
-
-						# Мы хотим, чтобы содержимое карточки занимало всю доступную высоту, установив для flex CSS значение 1.
+	    # Мы хотим, чтобы содержимое карточки занимало всю доступную высоту, установив для flex CSS значение 1.
             # Мы также хотим, чтобы содержимое карты сжималось, когда карта сжимается, установив для minHeight значение 0.
 
             with mui.CardContent(sx={"flex": 1, "minHeight": 0}):
 
-								# Вот наш редактор кода Monaco.
+		# Вот наш редактор кода Monaco.
                 #
                 # Во-первых, мы устанавливаем значение по умолчанию st.session_state.data, которое мы инициализировали выше.
                 # Во-вторых, мы определяем используемый язык, здесь JSON.
@@ -183,7 +172,7 @@ with elements("demo"):
 
             with mui.CardActions:
 
-								# В редакторе Monaco есть ленивый обратный вызов функции, связанный с onChange, что означает, что даже если вы измените
+		 # В редакторе Monaco есть ленивый обратный вызов функции, связанный с onChange, что означает, что даже если вы измените
                  # Контент Монако, Streamlit не будет получать уведомления напрямую, поэтому не будет перезагружаться каждый раз.
                  # Итак, нам нужно еще одно неленивое событие для запуска обновления.
                  #
@@ -201,26 +190,26 @@ with elements("demo"):
 
         with mui.Card(key="chart", sx={"display": "flex", "flexDirection": "column"}):
 
-	# Чтобы сделать этот заголовок перетаскиваемым, нам просто нужно установить для его имени класса значение «перетаскиваемый»,
+	    # Чтобы сделать этот заголовок перетаскиваемым, нам просто нужно установить для его имени класса значение «перетаскиваемый»,
             # как определено выше в draggableHandle панели инструментов.
 
             mui.CardHeader(title="Chart", className="draggable")
 
-						# Как мы обсуждали раньше, нам нужно чтобы наш контент увеличивался и уменьшался по мере того, как пользователь менял размер карты,
+	    # Как мы обсуждали раньше, нам нужно чтобы наш контент увеличивался и уменьшался по мере того, как пользователь менял размер карты,
             # установливая значение flex к 1 и minHeight к 0.
 
             with mui.CardContent(sx={"flex": 1, "minHeight": 0}):
 
-								# Здесь мы будем рисовать нашу диаграмму Bump.
+		# Здесь мы будем рисовать нашу диаграмму Bump.
                 #
                 # Для этого упражнения мы можем просто адаптировать пример Nivo чтобы оно работалои с Streamlit Elements.
                 # Пример Nivo доступен на вкладке «код» здесь: https://nivo.rocks/bump/
                 #
                 # Данные принимают словарь в качестве параметра, поэтому нам нужно преобразовать наши данные JSON из строки в
-                 # словарь Python с `json.loads()`.
-                 #
-                 # Для получения дополнительной информации о других доступных графиках Nivo:
-                 # https://nivo.rocks/
+                # словарь Python с `json.loads()`.
+                #
+                # Для получения дополнительной информации о других доступных графиках Nivo:
+                # https://nivo.rocks/
 
                 nivo.Bump(
                     data=json.loads(st.session_state.data),
@@ -264,13 +253,13 @@ with elements("demo"):
                     axisRight=None,
                 )
 
-				# Третий элемент панели управления, медиаплеер.
+	# Третий элемент панели управления, медиаплеер.
 
         with mui.Card(key="media", sx={"display": "flex", "flexDirection": "column"}):
             mui.CardHeader(title="Media Player", className="draggable")
             with mui.CardContent(sx={"flex": 1, "minHeight": 0}):
 
-								# Этот элемент получает энергию от ReactPlayer и поддерживает гораздо больше других плееров
+		# Этот элемент получает энергию от ReactPlayer и поддерживает гораздо больше других плееров
                 # чем YouTube. Вы можете проверить это здесь: https://github.com/cookpete/react-player#props.
 
                 media.Player(url=media_url, width="100%", height="100%", controls=True)
