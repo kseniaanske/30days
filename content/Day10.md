@@ -69,7 +69,7 @@ st.write('Your favorite color is ', option)
 
 ## **Следующие шаги**
 
-Теперь, когда вы создали приложение Streamlit локально, пришло время развернуть его в [Streamlit Cloud](https://streamlit.io/cloud).
+Теперь, когда вы создали приложение Streamlit локально, пришло время развернуть его в [Streamlit Community Cloud](https://streamlit.io/cloud).
 
 ## **Использованная литература**
 
