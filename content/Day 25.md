@@ -86,4 +86,4 @@ st.write("st.session_state object:", st.session_state)
 ## **Дальнейшее чтение**
 
 - [Session State](https://docs.streamlit.io/library/api-reference/session-state)
-- [Добавить состояние в приложения](https://docs.streamlit.io/library/advanced-features/session-state)
+- [Добавить statefulness в приложения](https://docs.streamlit.io/library/advanced-features/session-state)
