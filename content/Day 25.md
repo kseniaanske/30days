@@ -81,6 +81,10 @@ st.header('Output')
 st.write("st.session_state object:", st.session_state)
 ```
 
+## Further reading
+- [Session State](https://docs.streamlit.io/library/api-reference/session-state)
+- [Add statefulness to apps](https://docs.streamlit.io/library/advanced-features/session-state)
+
 ## **Дальнейшее чтение**
 
 - [Session State](https://docs.streamlit.io/library/api-reference/session-state)
