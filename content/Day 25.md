@@ -76,14 +76,12 @@ with col2:
 
 В двух словах, при вводе числа в поле `st.number_input` число преобразуется этими пользовательскими функциями.
 
-Наконец, значения веса в единицах `kg` и `lbs`, сохраненные в Session State как `st.session_state.kg` и `st.session_state.lbs`, будут распечатаны с помощью ```python
+Наконец, значения веса в единицах `kg` и `lbs`, сохраненные в Session State как `st.session_state.kg` и `st.session_state.lbs`, будут распечатаны с помощью `st.write`:
+
+```python
 st.header('Output')
 st.write("st.session_state object:", st.session_state)
 ```
-
-## Further reading
-- [Session State](https://docs.streamlit.io/library/api-reference/session-state)
-- [Add statefulness to apps](https://docs.streamlit.io/library/advanced-features/session-state)
 
 ## **Дальнейшее чтение**
 
