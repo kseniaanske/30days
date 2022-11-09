@@ -196,24 +196,15 @@ with elements("demo"):
 
                 mui.Button("Apply changes", onClick=sync())
 
-        # Second card, the Nivo Bump chart.
-        # We will use the same flexbox configuration as the first card to auto adjust the content height.
-
-				# Вторая карта, диаграмма Nivo Bump.
+	# Вторая карта, диаграмма Nivo Bump.
         # Мы будем использовать ту же конфигурацию flexbox, которую мы использовали на первая карте, для автоматической настройки высоты контента.
 
         with mui.Card(key="chart", sx={"display": "flex", "flexDirection": "column"}):
 
-            # To make this header draggable, we just need to set its classname to 'draggable',
-            # as defined above in dashboard.Grid's draggableHandle.
-
-						# Чтобы сделать этот заголовок перетаскиваемым, нам просто нужно установить для его имени класса значение «перетаскиваемый»,
+	# Чтобы сделать этот заголовок перетаскиваемым, нам просто нужно установить для его имени класса значение «перетаскиваемый»,
             # как определено выше в draggableHandle панели инструментов.
 
             mui.CardHeader(title="Chart", className="draggable")
-
-            # Like above, we want to make our content grow and shrink as the user resizes the card,
-            # by setting flex to 1 and minHeight to 0.
 
 						# Как мы обсуждали раньше, нам нужно чтобы наш контент увеличивался и уменьшался по мере того, как пользователь менял размер карты,
             # установливая значение flex к 1 и minHeight к 0.
@@ -286,4 +277,4 @@ with elements("demo"):
 ```
 ## Вопросы?
 
-Feel Любой вопрос? Не стесняйтесь задавать любые вопросы, касающиеся Streamlit Elements или этой задачи.: [Streamlit Elements Topic](https://discuss.streamlit.io/t/streamlit-elements-build-draggable-and-resizable-dashboards-with-material-ui-nivo-charts-and-more/24616)
+Не стесняйтесь задавать любые вопросы, касающиеся Streamlit Elements или этой задачи.: [Тема об элементах Streamlit](https://discuss.streamlit.io/t/streamlit-elements-build-draggable-and-resizable-dashboards-with-material-ui-nivo-charts-and-more/24616)
