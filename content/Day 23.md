@@ -10,7 +10,7 @@
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.experimental_get_query_params/)
 
-1. Следующая ссылка загружает демонстрационное приложение с параметрами запроса (здесь нет сообщения об ошибке):
+2. Следующая ссылка загружает демонстрационное приложение с параметрами запроса (здесь нет сообщения об ошибке):
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](http://share.streamlit.io/dataprofessor/st.experimental_get_query_params/?firstname=Jack&surname=Beanstalk)
 
 ## **Код**
@@ -83,14 +83,14 @@ such that it becomes
 ''')
 ```
 
-Впоследствии мы отобразим содержимое команды `st.experimental_get_query_params` .
+Впоследствии мы покажем содержимое команды `st.experimental_get_query_params` .
 ```python
 # 2. Contents of st.experimental_get_query_params
 st.header('2. Contents of st.experimental_get_query_params')
 st.write(st.experimental_get_query_params())
 ```
 
-Наконец, мы выберем и отобразим выборочную информацию из параметра запроса URL:
+Наконец, мы выберем и покажем выборочную информацию из параметра запроса URL:
 ```python
 # 3. Retrieving and displaying information from the URL
 st.header('3. Retrieving and displaying information from the URL')
