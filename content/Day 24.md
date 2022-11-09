@@ -134,8 +134,8 @@ st.info(b1-b0)
 
 ## **Дальнейшее чтение**
 
-- [`st.cache` API Documentation](https://docs.streamlit.io/library/api-reference/performance/st.cache)
-- [Optimize performance with `st.cache`](https://docs.streamlit.io/library/advanced-features/caching)
-- [Experimental cache primitives](https://docs.streamlit.io/library/advanced-features/experimental-cache-primitives)
+- [`st.cache` Документация API](https://docs.streamlit.io/library/api-reference/performance/st.cache)
+- [Оптимизируйте производительность с помощью `st.cache`](https://docs.streamlit.io/library/advanced-features/caching)
+- [Экспериментальные примитивы кэша](https://docs.streamlit.io/library/advanced-features/experimental-cache-primitives)
 - [`st.experimental_memo`](https://docs.streamlit.io/library/api-reference/performance/st.experimental_memo)
 - [`st.experimental_singleton`](https://docs.streamlit.io/library/api-reference/performance/st.experimental_singleton)
