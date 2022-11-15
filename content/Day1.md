@@ -9,7 +9,7 @@
 ## Установите конду
 
 - Чтобы установить `conda`, перейдите по ссылке [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html) и выберите свою операционную систему (Windows, Mac, или Linux).
-- Закачайте и запустите программу установки и установите `conda`.
+- Скачайте и запустите программу установки и установите `conda`.
 
 ## Создайте новую среду conda
 
