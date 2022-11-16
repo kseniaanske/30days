@@ -42,7 +42,7 @@
 - [Английский](https://github.com/streamlit/30days) (Официальный): [![30 Days of Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://30days.streamlitapp.com)
 - [Французский](https://github.com/streamlit/30days-French) (автор [Charly Wargnier](https://github.com/charlyWargnier/)): [![30 Days of Streamlit en Français!](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://30days-in-french.streamlitapp.com/)
 - [Португальский](https://github.com/franciscoed/30days) (автор [franciscoed](https://github.com/franciscoed)): [![30 Dias de Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/franciscoed/30days)
-- [Русский](https://github.com/kseniaanske/30days) (автор Ksenia Anske) [![30 Дней Streamlit на Русском](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/franciscoed/30days)
+- [Русский](https://github.com/kseniaanske/30days) (автор [Ksenia Anske](https://github.com/kseniaanske)) [![30 Дней Streamlit на Русском](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/franciscoed/30days)
 
 Перевод в процессе:
 - [Испанский](https://github.com/arraydude/30days-spanish/) (автор [Emiliano Rosso](https://github.com/arraydude)): [![30 Dias de Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/arraydude/30days)
