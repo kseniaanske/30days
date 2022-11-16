@@ -37,7 +37,7 @@ with st.expander("About the #30DaysOfStreamlit"):
     ''')
 
 # Sidebar
-st.sidebar.header('About')
+st.sidebar.header('Описание')
 st.sidebar.markdown('[Streamlit](https://streamlit.io) is a Python library that allows the creation of interactive, data-driven web applications in Python.')
 
 st.sidebar.header('Resources')
