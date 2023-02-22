@@ -40,9 +40,9 @@
 
 Если вы хотите нам помочь распространять #30DaysOfStreamlit , но английский не ваш родной язык, пожалуйста переведите задания на любой язык и сбросьте ссылку ниже!
 - [Английский](https://github.com/streamlit/30days) (Официальный): [![30 Days of Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://30days.streamlitapp.com)
+- [Chinese](https://github.com/TeddyHuang-00/30days-Chinese) (by [TeddyHuang-00](https://github.com/TeddyHuang-00)): [![30 天学 Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://30days-chinese.streamlit.app)
+- [Испанский](https://github.com/arraydude/30days-spanish/) (автор [Emiliano Rosso](https://github.com/arraydude)): [![30 Dias de Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/arraydude/30days)
 - [Французский](https://github.com/streamlit/30days-French) (автор [Charly Wargnier](https://github.com/charlyWargnier/)): [![30 Days of Streamlit en Français!](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://30days-in-french.streamlitapp.com/)
+- [Polish](https://github.com/streamlit/30days-polish) (by [Michał Nowotka](https://github.com/sfc-gh-mnowotka)): [![Streamlit w 30 dni po Polsku](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://w30dni.streamlit.app/)
 - [Португальский](https://github.com/franciscoed/30days) (автор [franciscoed](https://github.com/franciscoed)): [![30 Dias de Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/franciscoed/30days)
 - [Русский](https://github.com/kseniaanske/30days) (автор [Ksenia Anske](https://github.com/kseniaanske)) [![30 Дней Streamlit на Русском](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://30daysrussian.streamlit.app/)
-
-Перевод в процессе:
-- [Испанский](https://github.com/arraydude/30days-spanish/) (автор [Emiliano Rosso](https://github.com/arraydude)): [![30 Dias de Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/arraydude/30days)
